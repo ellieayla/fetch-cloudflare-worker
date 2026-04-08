@@ -1,0 +1,10 @@
+[project]
+name = "fetch-cloudflare-worker"
+version = "0.1.0"
+description = "Fetch upstream url."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["workers-py", "workers-runtime-sdk"]
