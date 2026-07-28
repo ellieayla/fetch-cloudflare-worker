@@ -11,6 +11,7 @@ class Default(WorkerEntrypoint):
         if request_url_component.hostname not in (
             "www.cycleto.ca",
             "www.everyonerides.org",
+            "www.burlingtongreen.org",
         ):
             unsupported = f"unsupported domain {request_url_component.hostname}"
             return Response(
