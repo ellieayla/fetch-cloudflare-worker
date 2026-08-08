@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "fetch-cloudflare-worker",
+	"name": "fetch-events",
 	"main": "src/entry.py",
 	"compatibility_date": "2026-04-08",
 	"compatibility_flags": [
