@@ -12,7 +12,6 @@ class Default(WorkerEntrypoint):
             "www.cycleto.ca",
             "www.everyonerides.org",
             "www.burlingtongreen.org",
-            "www.cookcountyclerkil.gov",
         ):
             unsupported = f"unsupported domain {request_url_component.hostname}"
             return Response(
